@@ -1,0 +1,133 @@
+.title {
+  font: 300px;
+  font-family: 'Chewy', cursive;
+}
+body{
+  background-color: black;
+  font-family: 'Lato', sans-serif;
+}
+#time{ /*time bar*/
+  width: 0%;
+  height: 20px;
+  background-color:#4A90E2;
+}
+.exit {
+  border: 2px solid black;
+  width: 50px;
+  height: 50px;
+}
+
+.flex {
+  display: flex;
+  width: 90%;
+  align-content: left;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+#complete, #time{
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.pauseButton:hover {
+  background-color: #3576c4;
+}
+.pauseButton:active {
+  background-color: #3576c4;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.overlay-content{
+  display: none;
+}
+.exitButton, .pauseButton{
+  background-color: #4A90E2;
+  border-radius: 10px;
+  width: 7%;
+  margin: 10px 15px auto 10px;
+  color:white;
+  font-size: 25px;
+  box-shadow: 0 9px #999;
+  font-family: 'Chewy', cursive;
+  align-items: left;
+  justify-content: left;
+}
+.exitButton:hover, .pauseButton:hover {
+  background-color: #3576c4;
+}
+.exitButton:active,.pauseButton:active{
+  background-color: #3576c4;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.blueButton{
+  background-color: #4A90E2;
+}
+.blueButton:hover {
+  background-color: #3576c4;
+}
+.blueButton:active {
+  background-color: #3576c4;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.greyButton, .blueButton{
+  border-radius: 10px;
+  width: 300px;
+  height: 75px;
+  margin: 10px auto;
+  color:white;
+  font-size: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Chewy', cursive;
+  box-shadow: 0 9px #999;
+}
+.greyButton{
+  background-color: #a8a8a8;
+}
+.container,.container-overlay, .container-game{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.container-overlay{
+  display: none;
+  position: fixed;
+  left:0;
+  right:0;
+  top: 8px;
+  height: auto;
+}
+.caption{
+  color: grey;
+  margin: 50px 0px;
+}
+.title{
+  font-size: 50px;
+  color: white;
+}
+.greyButton:hover {
+  background-color: #878787;
+}
+.greyButton:active {
+  background-color: #878787;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+a{
+  text-decoration:none;
+}
+.paragraphs{
+  font-size: 45px;
+  font-family: 'Chewy', cursive;
+  text-align: justify;
+  padding: 5px;
+  color: #00ff99;
+}
+.blackButton{
+  background-color: black;
+}
